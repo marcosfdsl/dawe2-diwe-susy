@@ -1,0 +1,21 @@
+@import '../../node_modules/susy/sass/susy';
+
+// Configuración de Susy
+$container-width: 100%; // Ancho del contenedor al 100%
+$columns: 12; // Número de columnas en la cuadrícula
+$column-width: 4em; // Ancho de una columna
+$gutter-width: 1em; // Ancho del espacio entre columnas
+
+// Estilos para el cuerpo del documento
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// Estilos para las columnas
+.item1, .item2, .item3 {
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: lightblue;
+  margin-bottom: 1em;
+}
